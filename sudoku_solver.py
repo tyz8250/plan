@@ -64,7 +64,7 @@ def string_to_board(sudoku_string):
         board.append([int(num) if num != '.' else 0 for num in row.split()])
     return board
 
-# 数独ボードを9桁の数字形式で入力することができます
+# 数独ボードを9桁の数字形式で入力することができます。
 sudoku_string = """
 530070000
 600195000
